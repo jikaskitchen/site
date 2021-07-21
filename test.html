@@ -1,0 +1,85 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&display=swap');
+        </style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg transparent">
+        <img src="img/logo.svg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/jikaskitchen2021/" target="_blank">
+                  <img src="img/ico-in.svg" />
+                </a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" target="_blank">
+                    <img src="img/ico-fb.svg" />
+                  </a>
+                </li>
+                
+              </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        
+        <div class="jumbotron">
+            <div class="jumbMeta">
+                <h1>Deliciously fast <br/>Latino Food</h1>
+                <p>Open today from <span>9am</span> to <span>4pm</span></p>
+                <a href="https://loncherabelmon.ola.click/products" target="_blank" class="btn btn-danger">View Our Menu</a>
+                <div class="location">
+                  <p>Currently: <span>151 Old County Rd #A, Belmont CA</span></p>
+                </div>
+                <p>General <span>(650) 457-5689 </span><br />
+                Orders <span>(650) 457-3152 </span></p>
+            </div>
+            <div class="jumbPics">
+                <img src="img/oval-truck.svg" class="imgJ tacoTruck" alt="Jikas">
+                <img src="img/hi-pupusas.png" class="imgJ itemPup float1" alt="Ricas Pupusas">
+                <img src="img/hi-taco.png" class="imgJ itemTac float2" alt="Tacos">
+                <img src="img/hi-quesadilla.png" class="imgJ itemQue float3" alt="Quesadillas">
+                <img src="img/hi-lime.png" class="imgJ itemLime" alt="lime">
+                <img src="img/hi-radish.png" class="imgJ itemRad" alt="Radish">
+            </div>
+            
+        </div><!--/jumbotron-->
+      </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/drive-db.js"></script>
+    <script>
+      LoadData();
+      async function LoadData() {
+        let data = await drive("1ypO46-Dd9vLXQ9ARz6BMkNVBVHldH6670NwatsdLEaI");
+        console.log(data);
+      }
+    </script>
+  </body>
+</html>
