@@ -1,0 +1,114 @@
+/* ==========================
+  MEDIA QUERIES
+========================== */
+@media (max-width: 2500px) {
+    h1 {font-size: 5.5rem;line-height: 85px;}
+}
+@media (max-width: 1489px) {
+    h1 {font-size: 4.5rem;}
+}
+@media (max-width: 1260px) {
+    
+}
+
+@media (max-width: 1230px) {
+}
+
+@media (max-width: 1200px) {
+
+    
+    
+}
+
+@media (max-width: 1196px){
+    h1 {font-size: 3.8rem;line-height: 65px;}
+}
+
+@media (max-width: 992px) {
+    .jumbMeta,
+    .jumbPics {
+        width: 100%;
+        text-align: center;
+    }
+    .jumbPics {
+        position: relative;
+        padding: 5em 0 0 0;
+    }
+    .tacoTruck {
+        right: inherit;
+        top: inherit;
+        width: 70%;
+        position: relative;
+    }
+    .itemPup {
+        left: 10%;
+        top: 3%;
+        width: 40%;
+    }
+    .itemTac {
+        left: 0%;
+        top: 60%;
+        width: 35%;
+    }
+    .itemQue {
+        right: 0%;
+        top: 50%;
+        width: 30%;
+    }
+    .itemLime {
+        top: 24%;
+        right: 28%;
+        width: 9%;
+    }
+    .itemRad {
+        top: 95%;
+        right: 47%;
+        width: 7%;
+    }
+
+}
+/* Portrait iPad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    
+}
+
+@media (max-width: 640px) {
+
+}
+
+@media (max-width: 540px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+
+}
+@media (max-width: 480px) {
+
+
+}
+@media (max-width: 414px) {
+/* iPhone 678  plus */
+}
+@media (max-width: 375px) { 
+/* iPhone x + 678 */
+
+
+}
+@media (max-width: 320px) {
+/* iPhone 5 */
+
+
+}

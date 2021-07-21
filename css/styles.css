@@ -1,0 +1,159 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1 {line-height: 70px;font-size: 3.8;}
+h1, h2 {
+    font-weight: 700;
+}
+.navbar {
+  z-index: 1001;
+}
+
+/* =======================================
+
+JUMBOTRON
+
+======================================= */
+.jumbotron {
+    background: transparent;
+}
+
+/* ==========  floats =============== */
+.float1 {
+    -webkit-animation-name: Floating1;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  
+  @-webkit-keyframes Floating1 {
+    from {
+      -webkit-transform: translate(0, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0, 15px);
+    }
+    to {
+      -webkit-transform: translate(0, 0px);
+    }
+  }
+  .float2 {
+    -webkit-animation-name: Floating2;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  
+  @-webkit-keyframes Floating2 {
+    from {
+      -webkit-transform: translate(0, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0, 15px);
+    }
+    to {
+      -webkit-transform: translate(0, 0px);
+    }
+  }
+  .float3 {
+    -webkit-animation-name: Floating3;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  
+  @-webkit-keyframes Floating3 {
+    from {
+      -webkit-transform: translate(0, 0px);
+    }
+    50% {
+      -webkit-transform: translate(0, 15px);
+    }
+    to {
+      -webkit-transform: translate(0, 0px);
+    }
+  }
+
+  /* =======================================
+
+GENERAL
+
+======================================= */
+.btn {
+    color: #fff !important;
+    font-size: 20px;
+    background-color: #FF0000;
+}
+.btn {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.imgJ {
+    position: absolute;
+    z-index: 1000;
+}
+
+/* =======================================
+
+Jumbotron
+
+======================================= */
+.jumbotron p {
+    font-size: 20px;
+    color: #949494;
+}
+.jumbotron p span {
+  color: black;
+  font-weight: 700;
+}
+
+.location {
+  padding: 1em 0 0 0;
+}
+.jumbPics {
+
+}
+.tacoTruck {
+    right: 10%;
+    top: -10px;
+    width: 40%;
+}
+.itemPup {
+    right: 33%;
+    top: -70px;
+    width: 24%;
+}
+.itemTac {
+    right: 38%;
+    top: 40%;
+    width: 20%;
+}
+.itemQue {
+    right: 2%;
+    top: 39%;
+    width: 20%;
+}
+.itemLime {
+  top: 4%;
+  right: 17%;
+  width: 6%;
+}
+.itemRad {
+  top: 60%;
+    right: 28%;
+    width: 4%;
+}
+
+
+
+
+
+
+
+
+
+
